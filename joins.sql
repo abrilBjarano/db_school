@@ -23,7 +23,7 @@ on
 --------------------------------------------------------------------------- LEFT JOIN ^
 
 select
-	students.idStudent, students.Name as Name, students.Surname as Surname, school.Name as Collage 
+	students.idStudent, students.Name as Name, students.Surname as Surname, school.Name as Collage
 from
 	students
 
@@ -31,3 +31,5 @@ right join
 	school
 on
 	students.idSchool = school.idSchool
+
+--------------------------------------------------------------------------- RIGHT JOIN ^

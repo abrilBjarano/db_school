@@ -21,6 +21,16 @@ insert into school
 values
 ('FIC')
 
+insert into school
+(Name)
+values
+('FACPYA')
+
+insert into school
+(Name)
+values
+('FAV')
+
 insert into students
 (Name, Surname, idSchool)
 values
@@ -45,3 +55,13 @@ insert into students
 (Name, Surname, idSchool)
 values
 ('Rubi', 'Chapa', 2)
+
+insert into school
+	(Name)
+values
+	('Tec')
+
+insert into students
+	(Name, Surname)
+values
+	('Ruperto', 'Martínez')
